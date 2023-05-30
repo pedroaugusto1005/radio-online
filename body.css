@@ -1,27 +1,55 @@
 body{
-    #player{
-       text-align: center;
-       padding-top: 35%;
-       
-    }
-    .audio-spectrum{
-        height: 250px;
-        display: flex;
-        align-items: flex-end;
-    }
-    .audio-spectrum div{
-        width: 15px;
-        height: 250px;
-        margin-right: 10px;
-        border-radius:5px;
-        background-color: white;
-    }
-    @keyframes equilizer {
-        0% {
-            height
-        }
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+
+  --color1: rgb(243, 105, 55);
+  --color2: rgb(52, 192, 111);
+  --black: #181818;
+}
+a {
+ color: #181818;
+}
+
+
+.back h6{
+  font-size: 15px;
+  color: rgb(95, 84, 84);
+  padding: 4px;
+  text-align: end;
+  justify-content: space-between;
+  display: flex;
+  margin: 30px
+}
+.dr h2{
+  text-align: center;
+  color :black;
+  
+ 
+}
+.redes{
+  width: 40px;
+}
+.brasao img{
+width: 100px;
+padding: 2%;
+float: left;
+
+
+
+} 
+.player{
+  text-align: center;
+  padding-top:350px;
+  .ico{
     
-    }
-    animation: audio-spectrum duration timing-function delay iteration-count direction fill-mode;
-    background-color: black ;
+    width: 30px;
+    height: 30x;
+  }
 }
